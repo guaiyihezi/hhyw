@@ -1,0 +1,45 @@
+$fontFamily: 'PingFangSC';
+
+// font color
+$primaryColorFocus: #dc8817;
+$primary2ColorFocus: #672108;
+$primary2ColorDisable: rgba(119, 37, 8, 0.3);
+$primary2WhiteColor: rgba(85, 46, 32, 1); // 用在button
+$primaryColorDisable: rgba(252, 127, 12, 0.3);
+$primary2WhiteColorFocus: rgba(85, 46, 32, 0.7);
+$titleTextColor: #404245; // 只在Card页用了
+$subtitleTextColor: #55595f; // 只在Card页用了
+$descTextColor: #a2a6ad; // 只在CardV5用了
+$formInputColor: #333; // 只在mixin用了
+
+$h1Color: #000; // 大标题
+$h2Color: #000; // 中标题
+$h3Color: #000; // 小标题
+$baseColor: #404040; // 基础文字颜色(条列式的链结名、底部导航的选项名、主要文字...)
+$subbaseColor: #888; // 次要文字颜色(子标题、加总金额的细项、)
+$smallColor: #000; // 边角文字颜色(一些小链结)
+$markColor: #ef5a50; //醒目颜色（价格数字...）
+$markColorNew: #ce3300; //新的醒目颜色（价格数字...）
+$deleteColor: #ff3950; //删除按钮颜色
+
+// font size
+$fontSize: 12px;
+$mainFontSize: 17px;
+$subFontSize: 14px;
+$h1: 18px;
+$h2: 16px;
+$h3: 15px;
+$h4: 14px;
+$h5: 12px;
+$h6: 10px;
+
+// display
+$inlineLayout: 'inline-block';
+$block: 'block';
+$flex: 'flex';
+
+// background
+$mainbgColor: #f2f3f4;
+$cardbgColor: #fff;
+$assetBgColor: #f2f3f4;
+$lineColor: #eaebec;

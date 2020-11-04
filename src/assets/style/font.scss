@@ -1,0 +1,19 @@
+// font.scss
+// 把原字体文件通过 Fontmin或字蛛(font-spider) 压缩，压缩后的字体放在assets/font文件夹中（ 压缩工具暂不支持otf格式字体压缩 ）
+// 压缩字体的原理是 从原来的字体文件中提取当前只需要展示的文字 不需要加载字体文件中多余的文字 减小字体文件的体积
+// Fontmin  https://efe.baidu.com/blog/fontmin-getting-started/
+// 字蛛     http://font-spider.org/
+@font-face {
+  font-family: DINAlternate;
+  src: url('../font/DINPro-Regular.woff') format('woff'),
+    /* chrome、firefox */ url('../font/DINPro-Regular.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+}
+// 字体      -> font-weight
+// regular  -> normal
+// medium   -> bold
+// bold     -> bloder
+// light    -> lighter
+.DINAlternate {
+  // font_face中定义的字体需要在当前文件引用至少一次 否则在其他文件则无法使用 原理暂时不太清楚
+  font-family: DINAlternate;
+}
